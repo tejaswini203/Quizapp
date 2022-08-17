@@ -1,0 +1,41 @@
+body{
+  background-color: skyblue;
+  font-family: monospace;
+}
+.app{
+  background-color: navy;
+  border: 5px cyan groove;
+  border-radius: 50px;
+  width: 450px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: azure;
+}
+.score-section{
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+}
+.answer-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+button{
+  background-color: rgb(128, 128, 169);
+  color: rgb(17, 4, 24);
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: cursive;
+}
+button:hover{
+  background-color:rgb(128, 128, 169) ;
+  color: red;
+}
